@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(237, 235, 235);
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.add{
+    margin: 25px 0px 40px;
+}
+
+.add input{
+    height: 30px;
+    width: 444px;
+    border: 1px solid rgb(58, 194, 103);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+#add-item{
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgb(58, 194, 103);
+    border-radius: 3px;
+    color: rgb(58, 194, 103);
+}
+
+.list-items .item{
+    /* border: 1px solid; */
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.list-items .item, .icons{
+    display: flex;
+    list-style-type: none;
+}
+
+.item .text{
+    width: 455px;
+    text-align: left;
+}
+
+.item .icons{
+    gap: 20px;
+}
+
+.icons, button{
+    cursor: pointer;
+}
+
+.icons .edit{
+    color: rgb(75, 193, 252);
+}
+
+.icons .delete{
+    color: rgb(249, 110, 110);
+}
